@@ -1,0 +1,230 @@
+.App {
+  text-align: center;
+}
+
+
+.read {
+  color: rgb(73, 64, 47);
+  text-align: center;
+}
+
+.read table {
+  margin: 0 auto; /* Center the table on the page */
+}
+
+.read th, .read td {
+  text-align: center; /* Center the text in table headers and cells */
+}
+
+
+.update {
+  margin: 140px auto;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.update label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.update input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.update button {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.update button:hover {
+  background-color: darkorange;
+}
+
+
+.nav {
+  display: flex;
+  justify-content:center; /* Align items to the right */
+  padding: 10px; /* Add some padding around the nav */
+  background-color: #f8f9fa; /* Optional: background color for the nav */
+}
+
+.nav a {
+  margin-left: 20px; /* Space between links */
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Link color */
+}
+
+.nav a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
+
+.read {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.read h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+input[type='radio'] {
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.actions button {
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.actions button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.actions button:active {
+  transform: scale(0.98); /* Slightly shrink button on click */
+}
+
+.actions button.view {
+  background-color: #28a745; /* Green for View */
+}
+
+.actions button.update {
+  background-color: #ffc107; /* Yellow for Update */
+}
+
+.actions button.delete {
+  background-color: #dc3545; /* Red for Delete */
+}
+
+
+.actions button {
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.actions button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.actions button:active {
+  transform: scale(0.98); /* Slightly shrink button on click */
+}
+
+.actions button.view {
+  background-color: #28a745; /* Green for View */
+}
+
+.actions button.update {
+  background-color: #ffc107; /* Yellow for Update */
+}
+
+.actions button.delete {
+  background-color: #dc3545; /* Red for Delete */
+}
+
+.viewpage {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.viewpage h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.viewpage p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.viewpage strong {
+  color: #555;
+}
+
+.viewpage p + p {
+  border-top: 1px solid #eaeaea;
+  padding-top: 10px;
+}
+
+.viewpage p:last-of-type {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .viewpage {
+      padding: 15px;
+  }
+
+  .viewpage p {
+      font-size: 16px;
+  }
+}
